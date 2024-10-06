@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#B0B435",
+        secondary: "#4F4F4F"
+      },
+      fontFamily: {
+        courgette: ['"Courgette"', 'cursive'], 
+        nunito: ['"Nunito"', 'sans-serif'],  
+      },
+      fontWeight: {
+        regular: '400',    
+      },
+    },
   },
   plugins: [],
 }
