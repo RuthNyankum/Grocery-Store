@@ -15,9 +15,11 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center px-4 md:px-0">
+    <div className="min-h-screen flex flex-col justify-center items-center px-4 md:px-0 font-nunito">
       <div className="w-full max-w-md">
-        <h1 className="font-bold text-2xl mb-3 text-center">Signup</h1>
+        <h1 className="font-bold text-3xl mb-3 text-center font-courgette">
+          Create an account
+        </h1>
 
         <form action="" className="space-y-5">
           <div>
@@ -104,7 +106,7 @@ const Signup = () => {
             </button>
           </div>
 
-          <button className="w-full h-14 px-4 py-2 text-lg bg-primary text-white rounded-full hover:bg-blue-700 transition duration-300">
+          <button className="w-full h-14 px-4 py-2 text-lg bg-primary text-white rounded-full hover:bg-secondary transition duration-300">
             Sign Up
           </button>
         </form>
