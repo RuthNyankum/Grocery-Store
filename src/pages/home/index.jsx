@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
       </div>
       Home
     </div>
